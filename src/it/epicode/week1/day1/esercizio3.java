@@ -12,12 +12,11 @@ public class esercizio3 {
         double perimetro = perimetroRettangolo(base,altezza);
         System.out.println("il perimentro è:" + perimetro);
         System.out.println( pariDispari(13));
-        System.out.println("l'area del triangolo è:" + areaTriangolo(2.2,3.7));
+        System.out.println("l'area del triangolo è:" + areaTriangolo(2.9,3.7));
 
     }
     public static double perimetroRettangolo (double base,double altezza){
-        double perimetro = (base + altezza) * 2;
-        return perimetro;
+        return (base + altezza) * 2;
 
     }
     public static int pariDispari (int numero) {
@@ -29,8 +28,7 @@ public class esercizio3 {
         }
    }
     public static double areaTriangolo (double base,double altezza){
-        double perimetro = (base * altezza) / 2;
-        return perimetro;
+        return (base * altezza) / 2;
 
     }
 }
