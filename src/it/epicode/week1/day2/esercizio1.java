@@ -7,7 +7,13 @@ public class esercizio1 {
         Scanner scan = new Scanner(System.in);
         System.out.println("inserisci una frase");
         String frase= scan.next();
-        System.out.println(stringaPariDispari(frase));
+        boolean x= stringaPariDispari(frase);
+        if (x){
+            System.out.println("la parola è pari");
+        }else {
+            System.out.println("la parola è dispari");
+        }
+
         System.out.println("inserisci l'anno");
         int anno = scan.nextInt();
         System.out.println(annoBisestile(anno));
