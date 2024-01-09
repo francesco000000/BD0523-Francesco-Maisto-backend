@@ -11,7 +11,7 @@ public class esercizio3 {
         double altezza =scan.nextDouble();
         double perimetro = perimetroRettangolo(base,altezza);
         System.out.println("il perimentro è:" + perimetro);
-        System.out.println( pariDispari(13));
+        System.out.println( pariDispari(11));
         System.out.println("l'area del triangolo è:" + areaTriangolo(2.9,3.7));
 
     }
