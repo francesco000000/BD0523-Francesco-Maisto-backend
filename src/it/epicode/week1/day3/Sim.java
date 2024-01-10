@@ -30,6 +30,7 @@ public class Sim {
         credito-=costo;
        registroChiamate= new String[]{numero};
        return costo;
+
     }
 
 
